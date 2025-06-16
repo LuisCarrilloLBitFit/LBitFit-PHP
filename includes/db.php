@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 <?php
+error_reporting(0);
 $host = "localhost";
 $user = "root";
 $password = "";
@@ -24,4 +24,3 @@ if ($conn->connect_error) {
     die("Error de conexión: " . $conn->connect_error);
 }
 ?>
->>>>>>> a9a6884e24fa53b71f9b10152b0b7b8b4a6933c8

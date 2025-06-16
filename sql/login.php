@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 ob_start();
 session_start();
@@ -128,7 +127,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </body>
 <?php ob_end_flush(); ?>
 </html>
-=======
 <?php
 include "includes/db.php";
 session_start();
@@ -154,4 +152,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
->>>>>>> a9a6884e24fa53b71f9b10152b0b7b8b4a6933c8

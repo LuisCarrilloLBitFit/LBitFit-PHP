@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 session_start();
 if ($_SESSION['role'] !== 'admin') {
@@ -97,7 +96,6 @@ $result = mysqli_query($conexion, $query);
 </body>
 
 </html>
-=======
 <?php
 include "../includes/db.php";
 session_start();
@@ -127,4 +125,4 @@ if ($result->num_rows > 0) {
 }
 ?>
 </ul>
->>>>>>> a9a6884e24fa53b71f9b10152b0b7b8b4a6933c8
+

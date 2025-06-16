@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 session_start();
 include '../sql/conexion.php';
@@ -115,7 +114,7 @@ $result = mysqli_query($conexion, $query);
 </body>
 
 </html>
-=======
+
 <?php
 include "../includes/db.php"; // Conexión a la base de datos
 include "../includes/header.php"; // Encabezado común
@@ -142,4 +141,4 @@ if ($result->num_rows > 0) {
 ?>
 
 <?php include "../includes/footer.php"; // Pie de página ?>
->>>>>>> a9a6884e24fa53b71f9b10152b0b7b8b4a6933c8
+

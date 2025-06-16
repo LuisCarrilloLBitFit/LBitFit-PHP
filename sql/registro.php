@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 session_start();
 $logged_in = isset($_SESSION['idUser']);
@@ -145,7 +144,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </body>
 
 </html>
-=======
 <?php
 include "includes/db.php";
 
@@ -185,4 +183,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <input type="password" name="password" placeholder="Contraseña" required>
     <button type="submit">Registrarse</button>
 </form>
->>>>>>> a9a6884e24fa53b71f9b10152b0b7b8b4a6933c8
